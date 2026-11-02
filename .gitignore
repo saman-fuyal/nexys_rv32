@@ -1,0 +1,24 @@
+# Build output (every script recreates it)
+sim/build/
+sw/build/
+sw/build_board/
+fpga/build/
+
+# Vivado leftovers in the project folder
+.Xil/
+*.jou
+webtalk*.log
+usage_statistics_webtalk.*
+vivado*.backup.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Simulation dumps
+*.vcd
+*.vvp
+
+# Quick and partial regression runs (the full run is kept in results/)
+results/regression_quick.*
+results/regression_partial.*

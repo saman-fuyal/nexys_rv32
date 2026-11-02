@@ -1,0 +1,16 @@
+GENERATED FILE - DO NOT EDIT. Made by tools/make_prebuilt.py
+Compiler: riscv-none-elf-gcc (xPack GNU RISC-V Embedded GCC x86_64) 14.2.0
+Digest = sha256/16 of the bytes the bootloader loads (addresses, data, entry).
+
+hello.elf                7d029df1484841ba  (default)
+switches_leds.elf        32781bbb6cccfc63  (default)
+seg7_counter.elf         b440c3e2db7fdc1e  (default)
+timer_irq.elf            a54bfbe19f37b5f0  (default)
+dhrystone.elf            f3681db137e6835f  (default)
+coremark.elf             795bfd6fc7d36081  (default)
+hello_board.elf          7d029df1484841ba  (default)
+timer_irq_board.elf      635bbdc00f6bd968  -DTICKS=1000
+dhrystone_board.elf      01e3722961f10716  -DNUMBER_OF_RUNS=1000000
+coremark_board.elf       1b104b433759de94  -DITERATIONS=1500
+hil/                     159 programs (probe, 100 random, 58 riscv-tests); digests in hil/MANIFEST.txt
+boot.elf                 2d010ebde775a0d2  boot ROM image (copy of sw/build/boot)

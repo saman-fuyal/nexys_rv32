@@ -1,0 +1,11 @@
+{
+ "validated": null,
+ "clock_hz": 50000000,
+ "core": "multi-cycle",
+ "core_tag": "mc",
+ "ok": true,
+ "wall_seconds": 0.8,
+ "port": "COM6",
+ "date": "2026-11-02 20:12",
+ "defines": []
+}

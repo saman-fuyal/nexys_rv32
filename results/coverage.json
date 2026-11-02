@@ -1,0 +1,306 @@
+{
+ "functional": {
+  "pipe": {
+   "mnemonics": {
+    "lui": 70651,
+    "auipc": 8911,
+    "jal": 99890,
+    "jalr": 85428,
+    "beq": 5917343,
+    "bne": 5885198,
+    "blt": 19411,
+    "bge": 9782,
+    "bltu": 71014,
+    "bgeu": 56824,
+    "lb": 3088,
+    "lh": 44540,
+    "lw": 11417325,
+    "lbu": 46150,
+    "lhu": 12588,
+    "sb": 12371,
+    "sh": 7036,
+    "sw": 179127,
+    "addi": 839157,
+    "slti": 3436,
+    "sltiu": 5667,
+    "xori": 9566,
+    "ori": 3400,
+    "andi": 11303118,
+    "slli": 340259,
+    "srli": 305868,
+    "srai": 92714,
+    "add": 230622,
+    "sub": 52227,
+    "sll": 5036,
+    "slt": 6755,
+    "sltu": 5612,
+    "xor": 65653,
+    "srl": 4913,
+    "sra": 3102,
+    "or": 11725,
+    "and": 133292,
+    "fence": 2463,
+    "fence.i": 808,
+    "ecall": 0,
+    "ebreak": 0,
+    "mret": 11692,
+    "wfi": 40871,
+    "csrrw": 12258,
+    "csrrs": 25569,
+    "csrrc": 870,
+    "csrrwi": 910,
+    "csrrsi": 965,
+    "csrrci": 869
+   },
+   "traps": {
+    "instruction address misaligned": 602,
+    "instruction access fault": 2,
+    "illegal instruction": 6366,
+    "breakpoint": 817,
+    "load address misaligned": 1352,
+    "load access fault": 761,
+    "store address misaligned": 687,
+    "store access fault": 4,
+    "ecall from M-mode": 817,
+    "machine timer interrupt": 522
+   },
+   "events": {
+    "stall": 11217517,
+    "flush": 11756337,
+    "fwd_mem": 11939486,
+    "fwd_wb": 11744730,
+    "irq": 522,
+    "trap": 11930
+   }
+  },
+  "mc": {
+   "mnemonics": {
+    "lui": 58300,
+    "auipc": 8914,
+    "jal": 86927,
+    "jalr": 72464,
+    "beq": 3589634,
+    "bne": 3620040,
+    "blt": 20029,
+    "bge": 9808,
+    "bltu": 45024,
+    "bgeu": 34205,
+    "lb": 3087,
+    "lh": 44540,
+    "lw": 6789590,
+    "lbu": 46113,
+    "lhu": 12587,
+    "sb": 12368,
+    "sh": 7036,
+    "sw": 143357,
+    "addi": 666378,
+    "slti": 3435,
+    "sltiu": 5668,
+    "xori": 9567,
+    "ori": 3399,
+    "andi": 6786720,
+    "slli": 340270,
+    "srli": 305908,
+    "srai": 92709,
+    "add": 230590,
+    "sub": 52215,
+    "sll": 5004,
+    "slt": 6755,
+    "sltu": 5581,
+    "xor": 65655,
+    "srl": 4881,
+    "sra": 3103,
+    "or": 11682,
+    "and": 133225,
+    "fence": 2463,
+    "fence.i": 808,
+    "ecall": 0,
+    "ebreak": 0,
+    "mret": 12320,
+    "wfi": 18097,
+    "csrrw": 12261,
+    "csrrs": 26200,
+    "csrrc": 870,
+    "csrrwi": 910,
+    "csrrsi": 965,
+    "csrrci": 869
+   },
+   "traps": {
+    "instruction address misaligned": 602,
+    "instruction access fault": 2,
+    "illegal instruction": 6366,
+    "breakpoint": 817,
+    "load address misaligned": 1350,
+    "load access fault": 766,
+    "store address misaligned": 687,
+    "store access fault": 4,
+    "ecall from M-mode": 817,
+    "machine timer interrupt": 1147
+   },
+   "events": {
+    "stall": 0,
+    "flush": 0,
+    "fwd_mem": 0,
+    "fwd_wb": 0,
+    "irq": 1147,
+    "trap": 12558
+   }
+  }
+ },
+ "code": [
+  {
+   "file": "rtl/core/rv_alu.v",
+   "lines": 36,
+   "lines_hit": 36,
+   "toggles": 354,
+   "toggles_hit": 354
+  },
+  {
+   "file": "rtl/core/rv_core_mc.v",
+   "lines": 182,
+   "lines_hit": 179,
+   "toggles": 5480,
+   "toggles_hit": 4497
+  },
+  {
+   "file": "rtl/core/rv_core_pipe.v",
+   "lines": 295,
+   "lines_hit": 294,
+   "toggles": 8784,
+   "toggles_hit": 7575
+  },
+  {
+   "file": "rtl/core/rv_csr.v",
+   "lines": 127,
+   "lines_hit": 127,
+   "toggles": 1712,
+   "toggles_hit": 1528
+  },
+  {
+   "file": "rtl/core/rv_decode.v",
+   "lines": 152,
+   "lines_hit": 152,
+   "toggles": 172,
+   "toggles_hit": 172
+  },
+  {
+   "file": "rtl/core/rv_imm.v",
+   "lines": 19,
+   "lines_hit": 18,
+   "toggles": 504,
+   "toggles_hit": 422
+  },
+  {
+   "file": "rtl/core/rv_lsu_load.v",
+   "lines": 14,
+   "lines_hit": 14,
+   "toggles": 186,
+   "toggles_hit": 186
+  },
+  {
+   "file": "rtl/core/rv_lsu_req.v",
+   "lines": 25,
+   "lines_hit": 25,
+   "toggles": 146,
+   "toggles_hit": 146
+  },
+  {
+   "file": "rtl/core/rv_regfile.v",
+   "lines": 13,
+   "lines_hit": 13,
+   "toggles": 226,
+   "toggles_hit": 226
+  },
+  {
+   "file": "rtl/gen/bootrom.v",
+   "lines": 353,
+   "lines_hit": 353,
+   "toggles": 426,
+   "toggles_hit": 422
+  },
+  {
+   "file": "rtl/periph/debounce.v",
+   "lines": 21,
+   "lines_hit": 21,
+   "toggles": 108,
+   "toggles_hit": 36
+  },
+  {
+   "file": "rtl/periph/gpio.v",
+   "lines": 46,
+   "lines_hit": 44,
+   "toggles": 462,
+   "toggles_hit": 209
+  },
+  {
+   "file": "rtl/periph/seg7.v",
+   "lines": 101,
+   "lines_hit": 91,
+   "toggles": 676,
+   "toggles_hit": 491
+  },
+  {
+   "file": "rtl/periph/sync2.v",
+   "lines": 13,
+   "lines_hit": 13,
+   "toggles": 188,
+   "toggles_hit": 68
+  },
+  {
+   "file": "rtl/periph/sysctrl.v",
+   "lines": 38,
+   "lines_hit": 35,
+   "toggles": 1188,
+   "toggles_hit": 512
+  },
+  {
+   "file": "rtl/periph/timer.v",
+   "lines": 50,
+   "lines_hit": 44,
+   "toggles": 858,
+   "toggles_hit": 544
+  },
+  {
+   "file": "rtl/periph/uart.v",
+   "lines": 59,
+   "lines_hit": 53,
+   "toggles": 300,
+   "toggles_hit": 148
+  },
+  {
+   "file": "rtl/periph/uart_rx.v",
+   "lines": 62,
+   "lines_hit": 59,
+   "toggles": 156,
+   "toggles_hit": 126
+  },
+  {
+   "file": "rtl/periph/uart_tx.v",
+   "lines": 40,
+   "lines_hit": 40,
+   "toggles": 150,
+   "toggles_hit": 124
+  },
+  {
+   "file": "rtl/soc/rv_soc.v",
+   "lines": 38,
+   "lines_hit": 38,
+   "toggles": 10416,
+   "toggles_hit": 6432
+  },
+  {
+   "file": "rtl/soc/soc_bus.v",
+   "lines": 62,
+   "lines_hit": 62,
+   "toggles": 1344,
+   "toggles_hit": 1074
+  },
+  {
+   "file": "rtl/soc/soc_ram.v",
+   "lines": 25,
+   "lines_hit": 25,
+   "toggles": 804,
+   "toggles_hit": 799
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "validated": null,
+ "core_tag": "mc",
+ "ok": true,
+ "wall_seconds": 1.8,
+ "port": "COM6",
+ "date": "2026-11-02 20:12",
+ "defines": [
+  "TICKS=1000"
+ ]
+}

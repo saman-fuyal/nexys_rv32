@@ -1,0 +1,14 @@
+{
+ "core": "mc",
+ "programs": 158,
+ "passed": 158,
+ "failed": 0,
+ "instructions": 6211087,
+ "bytes_compared": 489628,
+ "failures": [],
+ "port": "COM6",
+ "date": "2026-11-02 20:16",
+ "seconds": 310.4,
+ "random_programs": 100,
+ "riscv_tests": 58
+}

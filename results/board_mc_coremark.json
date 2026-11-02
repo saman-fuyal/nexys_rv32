@@ -1,0 +1,18 @@
+{
+ "iterations": 1500,
+ "cycles_low32": 3346580792,
+ "instret_low32": 1088039894,
+ "total_ticks_us": 66931618,
+ "coremark_per_mhz": 0.448,
+ "seconds": 66.93,
+ "valid_run_length": true,
+ "validated": true,
+ "core_tag": "mc",
+ "ok": true,
+ "wall_seconds": 67.8,
+ "port": "COM6",
+ "date": "2026-11-02 20:14",
+ "defines": [
+  "ITERATIONS=1500"
+ ]
+}

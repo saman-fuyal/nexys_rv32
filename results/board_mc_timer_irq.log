@@ -1,0 +1,2 @@
+timer_irq: period 1000 us, BTND to stop
+ticks=1000 (expected 1000)

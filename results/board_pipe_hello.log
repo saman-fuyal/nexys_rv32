@@ -1,0 +1,6 @@
+Hello from nexys_rv32!
+core      : 5-stage pipeline
+clock     : 50000000 Hz
+misa      : 40000100  mimpid: 00010000
+features  : zicsr=1 timer_irq=1 zifencei=1
+greeting  : 100158 cycles, 50223 instructions

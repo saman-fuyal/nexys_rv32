@@ -1,0 +1,11 @@
+{
+ "validated": null,
+ "core_tag": "pipe",
+ "ok": true,
+ "wall_seconds": 1.8,
+ "port": "COM6",
+ "date": "2026-11-02 18:30",
+ "defines": [
+  "TICKS=1000"
+ ]
+}

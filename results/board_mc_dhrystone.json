@@ -1,0 +1,17 @@
+{
+ "runs": 1000000,
+ "cycles": 1437000100,
+ "instret": 452000033,
+ "dmips_mhz": 0.396,
+ "cpi": 3.179,
+ "dhrystones_per_second_per_mhz_reported": 1,
+ "validated": null,
+ "core_tag": "mc",
+ "ok": true,
+ "wall_seconds": 29.7,
+ "port": "COM6",
+ "date": "2026-11-02 20:13",
+ "defines": [
+  "NUMBER_OF_RUNS=1000000"
+ ]
+}

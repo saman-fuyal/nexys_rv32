@@ -1,0 +1,11 @@
+{
+ "validated": null,
+ "clock_hz": 50000000,
+ "core": "5-stage pipeline",
+ "core_tag": "pipe",
+ "ok": true,
+ "wall_seconds": 0.9,
+ "port": "COM6",
+ "date": "2026-11-02 18:30",
+ "defines": []
+}

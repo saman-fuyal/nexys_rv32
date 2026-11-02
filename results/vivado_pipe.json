@@ -1,0 +1,13 @@
+{
+  "tool": "2018.2",
+  "core": "pipe",
+  "part": "xc7a50ticsg324-1L",
+  "clock_period_ns": 20.000,
+  "wns_ns": 2.266,
+  "whs_ns": 0.096,
+  "fmax_mhz": 56.4,
+  "lut": 2288, "lutram_cells": 108, "ff": 1574, "latch": 0,
+  "ramb36": 16, "ramb18": 2, "dsp": 0,
+  "critical_start": "u_soc/u_ram/ram_mem_reg_2_2/CLKARDCLK",
+  "critical_end": "u_soc/g_core.u_core/pc_q_reg[21]/CE"
+}

@@ -1,0 +1,130 @@
+[
+ {
+  "id": "M01",
+  "file": "rtl/core/rv_core_pipe.v",
+  "desc": "no MEM->EX forwarding for rs1",
+  "status": "KILLED",
+  "killed_by": "directed/csr (123 failing runs)",
+  "seconds": 78
+ },
+ {
+  "id": "M02",
+  "file": "rtl/core/rv_core_pipe.v",
+  "desc": "no WB->EX forwarding for rs2",
+  "status": "KILLED",
+  "killed_by": "directed/csr (41 failing runs)",
+  "seconds": 21
+ },
+ {
+  "id": "M03",
+  "file": "rtl/core/rv_core_pipe.v",
+  "desc": "load-use interlock removed",
+  "status": "KILLED",
+  "killed_by": "directed/hazards (15 failing runs)",
+  "seconds": 23
+ },
+ {
+  "id": "M04",
+  "file": "rtl/core/rv_core_pipe.v",
+  "desc": "register-file write-through bypass removed",
+  "status": "KILLED",
+  "killed_by": "directed/csr (86 failing runs)",
+  "seconds": 33
+ },
+ {
+  "id": "M05",
+  "file": "rtl/core/rv_core_pipe.v",
+  "desc": "instruction after a taken branch not flushed",
+  "status": "KILLED",
+  "killed_by": "directed/hazards (89 failing runs)",
+  "seconds": 46
+ },
+ {
+  "id": "M06",
+  "file": "rtl/core/rv_core_pipe.v",
+  "desc": "mepc taken from the wrong stage",
+  "status": "KILLED",
+  "killed_by": "directed/irq (26 failing runs)",
+  "seconds": 20
+ },
+ {
+  "id": "M07",
+  "file": "rtl/core/rv_core_pipe.v",
+  "desc": "FENCE.I does not flush",
+  "status": "KILLED",
+  "killed_by": "directed/fencei (2 failing runs)",
+  "seconds": 21
+ },
+ {
+  "id": "M08",
+  "file": "rtl/core/rv_alu.v",
+  "desc": "SRA computed as SRL",
+  "status": "KILLED",
+  "killed_by": "unit/alu@icarus",
+  "seconds": 1
+ },
+ {
+  "id": "M09",
+  "file": "rtl/core/rv_alu.v",
+  "desc": "BGEU uses the signed compare",
+  "status": "KILLED",
+  "killed_by": "unit/alu@icarus",
+  "seconds": 1
+ },
+ {
+  "id": "M10",
+  "file": "rtl/core/rv_decode.v",
+  "desc": "SLLI with shamt[5] = 1 accepted",
+  "status": "KILLED",
+  "killed_by": "unit/decode@icarus",
+  "seconds": 1
+ },
+ {
+  "id": "M11",
+  "file": "rtl/core/rv_csr.v",
+  "desc": "minstret write does not suppress the increment",
+  "status": "KILLED",
+  "killed_by": "unit/csr@icarus",
+  "seconds": 1
+ },
+ {
+  "id": "M12",
+  "file": "rtl/core/rv_lsu_load.v",
+  "desc": "LH not sign-extended",
+  "status": "KILLED",
+  "killed_by": "unit/lsu@icarus",
+  "seconds": 1
+ },
+ {
+  "id": "M13",
+  "file": "rtl/soc/soc_bus.v",
+  "desc": "stores to the boot ROM do not fault",
+  "status": "KILLED",
+  "killed_by": "unit/bus@icarus",
+  "seconds": 1
+ },
+ {
+  "id": "M14",
+  "file": "rtl/core/rv_core_mc.v",
+  "desc": "misaligned jump target not trapped (multi-cycle)",
+  "status": "KILLED",
+  "killed_by": "directed/traps (14 failing runs)",
+  "seconds": 22
+ },
+ {
+  "id": "M15",
+  "file": "rtl/core/rv_csr.v",
+  "desc": "trap entry leaves interrupts enabled",
+  "status": "KILLED",
+  "killed_by": "unit/csr@icarus",
+  "seconds": 1
+ },
+ {
+  "id": "M16",
+  "file": "rtl/core/rv_lsu_req.v",
+  "desc": "SB always writes byte lane 0",
+  "status": "KILLED",
+  "killed_by": "unit/lsu@icarus",
+  "seconds": 1
+ }
+]

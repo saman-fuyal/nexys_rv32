@@ -1,0 +1,9 @@
+{
+  "_generated": "DO NOT EDIT - tools/gen_all.py from params.json",
+  "ram_base": 2147483648,
+  "ram_size": 65536,
+  "boot_stack": 256,
+  "baud": 115200,
+  "cpu_hz": 50000000,
+  "params_hash": "0346f45c48f06b4d"
+}

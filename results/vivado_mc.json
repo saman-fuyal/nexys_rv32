@@ -1,0 +1,13 @@
+{
+  "tool": "2018.2",
+  "core": "mc",
+  "part": "xc7a50ticsg324-1L",
+  "clock_period_ns": 20.000,
+  "wns_ns": 1.459,
+  "whs_ns": 0.067,
+  "fmax_mhz": 53.9,
+  "lut": 2132, "lutram_cells": 108, "ff": 1136, "latch": 0,
+  "ramb36": 16, "ramb18": 2, "dsp": 0,
+  "critical_start": "u_soc/g_core.u_core/ir_q_reg[5]/C",
+  "critical_end": "u_soc/g_core.u_core/u_csr/mtvec_q_reg[22]/CE"
+}

@@ -1,0 +1,35 @@
+{
+ "stall": [
+  3,
+  10
+ ],
+ "flush": [
+  12,
+  16
+ ],
+ "no_retire": [
+  6,
+  13,
+  15,
+  16
+ ],
+ "id": [
+  "bne",
+  "lw",
+  "beq",
+  "beq",
+  "addi",
+  "bne",
+  "auipc",
+  "addi",
+  "lw",
+  "jalr",
+  "jalr",
+  "addi",
+  "",
+  "addi",
+  "jalr",
+  "slli",
+  ""
+ ]
+}

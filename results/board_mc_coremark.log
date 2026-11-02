@@ -1,0 +1,16 @@
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 66931618
+Total time (secs): 66
+Iterations/Sec   : 22
+Iterations       : 1500
+Compiler version : GCC14.2.0
+Compiler flags   : -O2 -funroll-loops -w
+Memory location  : STACK
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x25b5
+Correct operation validated. See README.md for run and reporting rules.
+CM_STATS iterations=1500 cycles=3346580792 instret=1088039894
