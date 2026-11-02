@@ -1,0 +1,11 @@
+# Third-party code copied into the repo: left out of GitHub's language statistics
+sim/arch_test/upstream/** linguist-vendored
+sim/riscv_tests/upstream/** linguist-vendored
+sw/third_party/** linguist-vendored
+
+# Files written by tools/gen_all.py from params.json
+rtl/gen/** linguist-generated
+docs/generated/** linguist-generated
+
+# Windows scripts keep CRLF line endings
+*.bat text eol=crlf
